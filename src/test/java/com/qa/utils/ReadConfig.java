@@ -7,7 +7,7 @@ import java.util.Properties;
 
 public class ReadConfig {
 	
-	
+	// Config File
 	public static String getValue(String key) throws IOException{
 		// Open the File 
 		File objfile = new File("AppConfigs/config.properties");
